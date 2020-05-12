@@ -10,3 +10,5 @@ yarn add -D @typescript-eslint/eslint-plugin@latest eslint@^6.8.0 eslint-config-
 
 yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
 
+yarn add uuidv4
+yarn add date-fns
