@@ -14,4 +14,6 @@ yarn add uuidv4
 
 yarn add date-fns
 
- yarn add typeorm pg
+yarn add typeorm pg
+
+yarn add reflect-metadata
