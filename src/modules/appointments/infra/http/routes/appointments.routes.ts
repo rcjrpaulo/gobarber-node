@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import AppointmentController from '../controller/AppointmentController';
+import AppointmentController from '../controllers/AppointmentController';
 
 import ensureAuthenticated from '@modules/users/infra/http/middlewares/ensureAuthenticated';
 
