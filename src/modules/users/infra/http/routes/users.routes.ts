@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import multer from 'multer';
-import uploadConfig from '@config/upload';
+import uploadConfig from '@config/uploads';
 
 import UserController from '../controller/UserController';
 import UserAvatarController from '@modules/users/infra/http/controller/UserAvatarController';
