@@ -8,7 +8,7 @@ interface IMessage {
 export default class FakeMailProvider implements IMailProvider {
   private messages: IMessage[] = [];
 
-  async sendMail(to: string, body: string): Promise<void> {
+  public async sendMail(to: string, body: string): Promise<void> {
     this.messages.push({
       to,
       body,
