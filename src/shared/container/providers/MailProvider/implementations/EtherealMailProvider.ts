@@ -29,13 +29,14 @@ export default class EtherealMailProvider implements IMailProvider {
         address: 'equipe@gobarber.com',
       },
       to: {
-        name: 'asf',
+        name: 'fulano',
         address: to,
       },
       subject: 'recuperacao de senha',
-      text: 'Hello to myself',
+      text: body,
     });
 
+    console.log('body: %s', body);
     console.log('Message sent: %s', message.messageId);
     console.log('Preview URL: %s', nodemailer.getTestMessageUrl(message));
   }
